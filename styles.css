@@ -154,7 +154,7 @@ input[type="text"]{
 }
 
 /*################## Mobile ##################*/
-@media (max-width: 680px){
+@media (max-width: 480px){
   ul.topnav li:not(:nth-child(1)){
     display: none;
   }
