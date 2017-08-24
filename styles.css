@@ -154,7 +154,7 @@ input[type="text"]{
 }
 
 /*################## Mobile ##################*/
-@media (max-width: 480px){
+@media (webkit-min-device-pixel-ratio: 0), (max-width: 680px){
   ul.topnav li:not(:nth-child(1)){
     display: none;
   }
