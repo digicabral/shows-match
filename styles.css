@@ -210,6 +210,13 @@ footer.footsy ul li{
   line-height: 1.5;
 }
 
+footer.footsy h2{
+  padding-right: 10%;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+
 /*################## Mobile ##################*/
 @media (webkit-min-device-pixel-ratio: 0), (max-width: 680px){
   ul.topnav li:not(:nth-child(1)){
@@ -258,9 +265,23 @@ article p{
     margin: 0;
   }
 
+footer.footsy{
+  padding: 0;
+}
+
+footer.footsy h2{
+  padding: 0;
+}
+
 div.mobileStack{
-  width: 50%;
+  padding: 0;
+  width: 100%;
   display: block;
+  text-align: center;
+}
+
+div.mobileStack ul li{
+  text-align: center;
 }
 
   div.box{
